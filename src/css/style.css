@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@300;600;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #757f9a, #d7dde8);
+    font-family: 'Oxanium';
+}
+
+.container {
+    display: inline-block;
+    margin-top: 7%;
+    padding: 15px;
+    position: relative;
+}
+
+.pokedex {
+    width: 100%;
+    max-width: 615px;
+}
+
+.pokemon-image {
+    position: absolute;
+    bottom: 35%;
+    left: 22%;
+    transform: translate(-24%, -20%);
+    height: 18%;
+}
+
+.pokemon-data {
+    position: absolute;
+    color: #6f726f;
+    left: 12%;
+    bottom: 21.4%;
+    width: 170px;
+    font-size: 20px;
+}
+
+.pokemon-name {
+    color: #2f302f;
+    text-transform: capitalize;
+    font-weight: 800;
+}
+
+.form {
+    position: absolute;
+    right: 8%;
+    top: 35%;
+    width: 30%;
+}
+
+.search {
+    width: 100%;
+    padding: 4%;
+    outline: none;
+    border: 1px dashed #293029;
+    border-radius: 5px;
+    font-weight: 600;
+    background-color: #3f5e3f;
+    color: #202220;
+    text-align: center;
+    font-size: 16px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+    width: 26%;
+    position: absolute;
+    right: 10%;
+    top: 45%;
+}
+
+.type,
+.height,
+.weight {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 4%;
+    border-bottom: 1px dashed #3f5e3f;
+    color: #293029;
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+
+.description {
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.buttons {
+    position: absolute;
+    width: 28%;
+    bottom: 18%;
+    right: 8%;
+    transform: translate(-5%, 0);
+    display: flex;
+    gap: 20px;
+}
+
+.button {
+    width: 50%;
+    font-size: 2.5rem;
+    padding: 2px;
+    color: #293029;
+    background-color: transparent;
+    border: none;
+}
+
+.button:hover {
+    cursor: pointer;
+    color: #202220;
+}

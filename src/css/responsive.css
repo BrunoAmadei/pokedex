@@ -1,0 +1,46 @@
+@media(max-width: 415px) {
+    .container {
+        margin-top: 45%;
+    }
+
+    .pokemon-data {
+        left: 4%;
+        bottom: 25%;
+        font-size: 11px;
+    }
+
+    .form {
+        right: 10%;
+    }
+
+    .search {
+        padding: 1%;
+        font-weight: 500;
+    }
+
+    .info{
+        width: 30%;       
+    }
+
+    .type,
+    .height,
+    .weight{
+        padding: 2%;
+        gap: 10px;
+        font-size: 14px;
+    }
+
+    .description{
+        font-size: 0.9rem;
+    }
+
+    .buttons{
+        bottom: 17%;
+        right: 10%;
+        padding: 0;
+    }
+
+    .button{
+        font-size: 1.5rem;
+    }
+}

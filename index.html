@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex</title>
+
+    <script src="https://kit.fontawesome.com/6f1169f369.js" crossorigin="anonymous"></script>
+    <!--Links-->
+    <link rel="icon" href="./src/images/pokeball-favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+</head>
+
+<body>
+
+    <main class="container">
+
+        <img src="#" alt="pokemon_image" class="pokemon-image">
+
+        <h1 class="pokemon-data">
+            <span class="pokemon-id"></span> -
+            <span class="pokemon-name"></span>
+        </h1>
+
+        <form class="form">
+            <input type="search" class="search" placeholder="Name / Nº" required>
+        </form>
+
+        <div class="info">
+
+            <h3 class="type">
+                Type:
+                <span class=" description description-type"></span> 
+            </h3>
+
+            <h3 class="height">
+                Height:
+                <span class="description description-height"></span>
+            </h3>
+
+            <h3 class="weight">
+                Weight:
+                <span class="description description-weight"></span>
+            </h3>
+
+        </div>
+
+        <div class="buttons">
+            <button class="button btn-prev">
+                <i class="fa-solid fa-circle-arrow-left"></i>
+            </button>
+            
+            <button class="button btn-next">
+                <i class="fa-solid fa-circle-arrow-right"></i>
+            </button>
+        </div>
+
+        <img src="./src/images/pokedex2.png" alt="pokedex_image" class="pokedex">
+    </main>
+
+    <script src="./src/js/pokedex.js"></script>
+</body>
+
+</html>
