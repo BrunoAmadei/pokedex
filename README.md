@@ -18,4 +18,4 @@ sobre os pokémons.
 Este projeto está sob a licença [_MIT License_](https://github.com/BrunoAmadei/pokedex/blob/main/LICENSE)
 
 ## ✒️Autor
-Um desenvolvedor - Trabalho Inicial - @BrunoAmadei
+Um desenvolvedor - Trabalho Inicial - Bruno Amadei
