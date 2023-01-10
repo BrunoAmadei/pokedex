@@ -1,7 +1,7 @@
 # [Pokédex](https://pokedex-ftmb.netlify.app/)
 Procure por um pokémon específico, ou simplesmente passe para o lado e você terá algumas informações 
 sobre os pokémons.
----
+
 
 ## 🛠️Construído com:
 * _HTML_
